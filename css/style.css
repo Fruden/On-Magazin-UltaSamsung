@@ -1,0 +1,256 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-logo{
+    width: 15%;
+    height: 70px;
+    /* background-color: cyan; */
+    display: flex;
+
+}
+.header-logo img{
+    width: 65px;
+  
+}
+.header-logo p{
+    font-size: 40px;
+    margin-top: 6px;
+    margin-left: 10px;
+    font-family: New Tegomin;
+    color: red;
+}
+.header-text{
+    width: 45%;
+    height: 70px;
+    /* background-color: cyan; */
+    
+}
+
+.header-text ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+
+}
+
+.header-text ul li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 30px;
+    transition: 1s;
+}
+.header-text ul li a:hover{
+    font-size: 50px;
+    color: red;
+
+}
+.header-login{
+    width: 15%;
+    height: 70px;
+    /* background-color: cyan;  */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.login_button{
+    width: 100px;
+    height: 30px;
+    background-color: seagreen;
+    color: seashell;
+    margin-top: 18px;
+}
+
+/* Navbar */
+
+nav{
+    width: 100%;
+    height: 300px;
+    /* background-color: skyblue; */
+    background-image:url('https://img.freepik.com/free-vector/technology-banner-background-with-hexagonal-shapes-text-space_1017-22589.jpg?size=626&ext=jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+nav h1{
+    font-size: 70px;
+    padding: 40px 0px;
+    text-align: center;
+    color: red;
+}
+.input{
+    display: flex;
+    justify-content: center;
+}
+input{
+    width: 40%;
+    height: 30px;
+
+}
+button{
+    width: 80px;
+    height: 34px;
+    margin-left: 5px;
+}
+.fa-search:before {
+    font-size: 30px;
+    color: seagreen;
+}
+
+/*========== Section_body========== */
+
+.section_body{
+    width: 100%;
+    height: 800px;
+    /* background-color: palevioletred; */
+    display: flex;
+}
+aside{
+    width: 25%;
+    height: 800px;
+    background-color: silver;
+}
+.aside_category{
+    width: 100%;
+    height: 400px;
+    background-color: pink;
+    border-radius: 20px;
+}
+.aside_category h1{
+    font-size: 40px;
+    text-align: center;
+}
+.aside_category ul{
+    list-style-type: none;
+    font-size: 30px;
+    
+}
+.aside_category ul li a{
+    display: block;
+    text-decoration: none;
+    color: slategray;
+}
+.aside_category ul li{
+    text-align:center;
+    line-height: 65px;
+    border-style: none none dashed none;
+}
+.aside_category ul li:hover{
+    background-color: black;
+    color: white;
+}
+.aside_category ul li a:hover{
+    color: white;
+    width: 100%;
+    
+}
+.aside_login{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.aside_login h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 20px 0px;
+}
+.aside_login input{
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.aside_login button{
+    width: 80px;
+    height: 35px;
+    background-color: plum;
+    color: white;
+    margin: 50px 200px;
+}
+
+/* ============Section=========== */
+section{
+    width: 75%;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    background-color: silver;
+}
+
+.box{
+    width: 24%;
+    height: 380px;
+    border-radius: 20px;
+    background-color: white;  
+    transition: .5s;
+}
+.box:hover{
+    transform: translateY(-2%);
+    box-shadow: 2px 3px 3px 5px rgb(117, 114, 114);
+}
+.box img{
+    width: 80%;
+    margin-left: 26px;
+    
+}
+.box h3{
+    text-decoration: line-through;
+}
+.savatcha{
+    display: flex;
+    font-size: 40px;
+    margin-left: 50px;
+}
+.box h1,h2,h3{
+    margin-left:10px ;
+    margin-bottom: 5px;
+}
+.box a{
+    text-decoration: none;
+    color: slategray;
+}
+/* ==========footer========== */
+footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: springgreen;
+}
+
+.fa-telegram:before{
+    font-size: 40px;
+    margin-left: 20px;
+}
+.fa-instagram:before{
+    font-size: 40px;
+    margin-left: 20px;
+}
+.fa-youtube:before{
+    font-size: 40px;
+    margin-left: 20px;
+}
+.fa-facebook:before{
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+
+
+
+
